@@ -1,11 +1,11 @@
 global:
-  message: Welcome to product service environment
+  message: Welcome to user service product environment
 server:
   port: 8083
 message: Hello from Product
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/productdb
+    url: jdbc:mysql://localhost:3306/user_prod
     username: root
     password: 
   jpa:
